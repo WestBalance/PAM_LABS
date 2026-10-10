@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import '../screens/wardrobe_screen.dart';
+import '../screens/generator_screen.dart';
+import '../screens/saved_outfits_screen.dart';
+import '../screens/profile_screen.dart';
 
 class DemoShell extends StatefulWidget {
   const DemoShell({super.key});
@@ -9,12 +13,11 @@ class DemoShell extends StatefulWidget {
 
 class _DemoShellState extends State<DemoShell> {
   int _index = 0;
-
   static const _screens = [
-    Center(child: Text('Гардероб')),
-    Center(child: Text('Подбор')),
-    Center(child: Text('Сохранённые образы')),
-    Center(child: Text('Профиль')),
+    WardrobeScreen(),
+    GeneratorScreen(),
+    SavedOutfitsScreen(),
+    ProfileScreen(),
   ];
 
   @override

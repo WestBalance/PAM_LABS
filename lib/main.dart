@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'screens/login_screen.dart';
 
 void main() => runApp(const MyApp());
@@ -14,8 +13,8 @@ class MyApp extends StatelessWidget {
     theme: ThemeData(
       useMaterial3: true,
       colorScheme: ColorScheme.fromSeed(
-        seedColor: const Color.fromARGB(255, 217, 162, 24),
-      ).copyWith(primary: const Color.fromARGB(255, 208, 130, 21)),
+        seedColor: const Color.fromARGB(255, 213, 147, 24),
+      ).copyWith(primary: const Color.fromARGB(255, 187, 159, 36)),
       textTheme: const TextTheme(
         titleLarge: TextStyle(fontWeight: FontWeight.w600),
       ),
